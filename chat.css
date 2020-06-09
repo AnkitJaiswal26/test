@@ -720,6 +720,11 @@ figure.avatar-xl > img {
     }
     #chat{
         display: none;
+        height: 100vh;
+    }
+
+    .chatbox{
+        padding: 0px;
     }
     #contact-information{
         display: none;
