@@ -709,11 +709,24 @@ figure.avatar-xl > img {
     border: 0px;
 }
 
-@media (max-width: 500px){
-    .sidebar-group{
-        width: 100%;
-    }
-    .chat{
+@media screen and (max-width: 1120px) {
+    .navigation {
         display: none;
+        position: fixed;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        z-index: 1021;
+    }
+    #chat{
+        display: none;
+    }
+    #contact-information{
+        display: none;
+        width: 100vw;
+        z-index: 100;
+    }
+    #sidebar-group-chats{
+        width: 100vw;
     }
 }
