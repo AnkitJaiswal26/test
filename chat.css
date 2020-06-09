@@ -710,7 +710,7 @@ figure.avatar-xl > img {
 }
 
 @media (max-width: 500px){
-    .sidebar-groups{
+    .sidebar-group{
         width: 100%;
     }
     .chat{
